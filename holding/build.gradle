@@ -1,0 +1,9 @@
+group 'com.yyz.www'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    compile project(':tij4-code-net')
+    compile project(':tij4-code-typeinfo')
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+

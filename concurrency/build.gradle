@@ -1,0 +1,7 @@
+group 'com.yyz.www'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    compile project(':tij4-code-enumerated')
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
