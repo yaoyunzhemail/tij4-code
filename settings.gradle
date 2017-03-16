@@ -13,4 +13,6 @@ include 'typeinfo'
 findProject(':typeinfo')?.name = 'tij4-code-typeinfo'
 include 'innerclasses'
 findProject(':innerclasses')?.name = 'tij4-code-innerclasses'
+include 'io'
+findProject(':io')?.name = 'tij4-code-io'
 
