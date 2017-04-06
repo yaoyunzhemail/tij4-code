@@ -15,4 +15,6 @@ include 'innerclasses'
 findProject(':innerclasses')?.name = 'tij4-code-innerclasses'
 include 'io'
 findProject(':io')?.name = 'tij4-code-io'
+include 'exceptions'
+findProject(':exceptions')?.name = 'tij4-code-exceptions'
 
