@@ -17,4 +17,6 @@ include 'io'
 findProject(':io')?.name = 'tij4-code-io'
 include 'exceptions'
 findProject(':exceptions')?.name = 'tij4-code-exceptions'
+include 'control'
+findProject(':control')?.name = 'tij4-code-control'
 
