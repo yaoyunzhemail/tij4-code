@@ -21,4 +21,8 @@ include 'control'
 findProject(':control')?.name = 'tij4-code-control'
 include 'strings'
 findProject(':strings')?.name = 'tij4-code-strings'
+include 'generics'
+findProject(':generics')?.name = 'tij4-code-generics'
+include 'generics'
+findProject(':generics')?.name = 'tij4-code-generics'
 
