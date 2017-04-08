@@ -22,7 +22,9 @@ public class CheckedList {
     List<Pet> pets = Collections.checkedList(
       new ArrayList<Pet>(), Pet.class);
     pets.add(new Dog());
-    pets.add(new Cat());
+
+    //TODO 姚云哲此处验证错误，注释掉
+//    pets.add(new Cat());
   }
 } /* Output:
 java.lang.ClassCastException: Attempt to insert class typeinfo.pets.Cat element into collection with element type class typeinfo.pets.Dog

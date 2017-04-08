@@ -3,6 +3,7 @@ package generics;//: generics/UseList.java
 import java.util.*;
 
 public class UseList<W,T> {
-  void f(List<T> v) {}
+  //TODO 姚云哲此处验证错误，注释掉
+//  void f(List<T> v) {}
   void f(List<W> v) {}
 } ///:~
